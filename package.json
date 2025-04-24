@@ -18,5 +18,6 @@
     "puppeteer-extra-plugin-anonymize-ua": "^2.4.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
     "puppeteer-real-browser": "^1.4.2"
-  }
+  },
+  "devDependencies": {}
 }
