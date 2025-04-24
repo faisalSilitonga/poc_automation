@@ -19,5 +19,18 @@
     "puppeteer-extra-plugin-stealth": "^2.11.2",
     "puppeteer-real-browser": "^1.4.2"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faisalSilitonga/poc_automation.git"
+  },
+  "keywords": [
+    "poc",
+    "browser",
+    "automation"
+  ],
+  "bugs": {
+    "url": "https://github.com/faisalSilitonga/poc_automation/issues"
+  },
+  "homepage": "https://github.com/faisalSilitonga/poc_automation#readme"
 }
