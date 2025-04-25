@@ -38,17 +38,17 @@ const launchOpt = {
         // desktop
     await page.setViewport(defaultViewPort)
     
-    await page.goto('https://dexscreener.com/', {
+    await page.goto('https://www.neptus.co.id/', {
         waitUntil: 'domcontentloaded',
     })
     await new Promise(resolve => setTimeout(resolve, 2000));
     // await page.waitForTimeout(2000); // Wait for resources to settle, adjust as needed
 
     // Ensure preloaded resources are used
-    await page.evaluate(() => {
-    const preload = document.querySelector('link[rel="preload"][href="https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/cmg/1"]');
-    if (preload) preload.remove(); // Remove preload if it’s not needed
-    });
+    // await page.evaluate(() => {
+    // const preload = document.querySelector('link[rel="preload"][href="https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/cmg/1"]');
+    // if (preload) preload.remove(); // Remove preload if it’s not needed
+    // });
 
 
     // await page.authenticate({

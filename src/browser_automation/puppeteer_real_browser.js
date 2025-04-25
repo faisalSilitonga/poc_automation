@@ -26,7 +26,7 @@ const defaultViewPort = {
     await page.setUserAgent('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36');
 
     console.log('Go to web dexscreener.com');
-    await page.goto('https://dexscreener.com/', {
+    await page.goto('https://www.neptus.co.id/', {
         waitUntil: "networkidle2"
     });
 

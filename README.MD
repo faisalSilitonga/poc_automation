@@ -28,9 +28,10 @@ Before getting started, make sure you have:
 
 | Folder              | Description                                                                 |
 |---------------------|-----------------------------------------------------------------------------|
-| `browser_automation`| Contains browser launch settings, Puppeteer stealth config, and utilities. |
+| `browser_automation`| Contains browser launch settings, Puppeteer stealth config, and utilities.  |
 | `cloudflare`        | POCs for accessing websites protected by Cloudflare, including Turnstile.   |
 | `linkedin`          | Automations for LinkedIn, such as login flows, scraping, and user activity. |
+| `proxy`             | POCs for proxy manipulation in browser automations.                         |
 
 ---
 
