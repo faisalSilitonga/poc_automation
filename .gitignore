@@ -64,7 +64,7 @@ typings/
 *.tsbuildinfo
 
 # Jetbrains IDE
-.idea
+.idea/
 
 # VS Code
 .vscode
